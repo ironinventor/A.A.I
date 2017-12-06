@@ -1,13 +1,13 @@
-package neural;
+package com.AceAIcom.AceAI;
 
 import java.util.ArrayList;
 
 public class TrainingSet {
 
-	// The inputs you want to train your software to know
+	// The inputs for netwwork 
     private ArrayList<Integer> inputs;
     
-    // The outputs you want you program to answer for the inputs given
+    // The outputs that is desired.
     private ArrayList<Double> goodOutput;
 
     public TrainingSet(ArrayList<Integer> inputs, ArrayList<Double> goodOutput) {
