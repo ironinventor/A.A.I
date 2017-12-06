@@ -1,4 +1,4 @@
-package neural;
+package com.AceAi;
 
 import utils.MathUtils;
 
