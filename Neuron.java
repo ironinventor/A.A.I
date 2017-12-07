@@ -1,4 +1,5 @@
-package com.AceAi;
+package com.AceAI;
+
 
 import utils.MathUtils;
 
@@ -39,7 +40,7 @@ public class Neuron {
             weights.add(Math.random());
         }
     }
-
+// Determine output based on bias 
     public void calculateOutput() {
         double sum = 0;
 
