@@ -48,7 +48,7 @@ public class Train {
     	TrainingSet set = trainingSets.get(arrayIndexs.indexOf(letter)).get(index);
     	return set.getInputs();
     }
-    
+  // generates random letters for network to guess and evaluate  
     public ArrayList<Integer> getRandomInputFromLetter(String letter) {
         int index = ((int) (Math.random() * trainingSets.get(arrayIndexs.indexOf(letter)).size()));       
         TrainingSet set = trainingSets.get(arrayIndexs.indexOf(letter)).get(index);
