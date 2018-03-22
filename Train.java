@@ -24,10 +24,10 @@ public class Train {
     }
 
     public void trainAll() {  	
-    	for(int i = 0; i < arrayABC.length; i++) {   		    		
-    		train(1000, arrayABC[i]);
+    	for(int i = 0; i <= arrayABC.length; i++;) {   		    		
+    		train(100000, arrayABC[i]);
     	}
-    }
+        
     
     public void train(long count, String letter) {
         for (long i = 0; i < count; i++) {
