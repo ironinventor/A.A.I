@@ -20,6 +20,7 @@ public class Train {
 
         ReadWriteFile.restoreWeightsToNeurons(network);
         ReadWriteFile.showTextsABCSize();
+        System.out.println("Training Class initalised")
     }
 
     public void trainAll() {  	
